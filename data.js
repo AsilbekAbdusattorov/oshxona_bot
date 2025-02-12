@@ -1,106 +1,74 @@
 import Taom from './src/img/Taom.png';
+import Ichimlik from './src/img/ichimliklar.png';
 
-const products = [
-  {
-    id: 1,
-    name: {
-      uz: 'Mahsulot 1',  // Uzbek name
-      eng: 'Product 1',  // English name
-      ru: 'Продукт 1',   // Russian name
+const products = {
+  nationalFood: [
+    {
+      id: 1,
+      name: {
+        uz: 'Mahsulot 1',
+        eng: 'Product 1',
+        ru: 'Продукт 1',
+      },
+      price: 100,
+      imageUrl: Taom,
     },
-    price: 100,
-    imageUrl: Taom,
-  },
-  {
-    id: 2,
-    name: {
-      uz: 'Mahsulot 2',
-      eng: 'Product 2',
-      ru: 'Продукт 2',
+    {
+      id: 2,
+      name: {
+        uz: 'Mahsulot 2',
+        eng: 'Product 2',
+        ru: 'Продукт 2',
+      },
+      price: 150,
+      imageUrl: Taom,
     },
-    price: 150,
-    imageUrl: Taom,
-  },
-  {
-    id: 3,
-    name: {
-      uz: 'Mahsulot 3',
-      eng: 'Product 3',
-      ru: 'Продукт 3',
+    {
+      id: 3,
+      name: {
+        uz: 'Mahsulot 3',
+        eng: 'Product 3',
+        ru: 'Продукт 3',
+      },
+      price: 200,
+      imageUrl: Taom,
     },
-    price: 200,
-    imageUrl: Taom,
-  },
-  {
-    id: 4,
-    name: {
-      uz: 'Mahsulot 4',
-      eng: 'Product 4',
-      ru: 'Продукт 4',
+    // Boshqa milliy taomlar...
+  ],
+
+  drinks: [
+    {
+      id: 1,
+      name: {
+        uz: 'Ichimlik 1',
+        eng: 'Drink 1',
+        ru: 'Напиток 1',
+      },
+      price: 50,
+      imageUrl: Ichimlik,
     },
-    price: 250,
-    imageUrl: Taom,
-  },
-  {
-    id: 5,
-    name: {
-      uz: 'Mahsulot 5',
-      eng: 'Product 5',
-      ru: 'Продукт 5',
+    {
+      id: 2,
+      name: {
+        uz: 'Ichimlik 2',
+        eng: 'Drink 2',
+        ru: 'Напиток 2',
+      },
+      price: 70,
+      imageUrl: Ichimlik,
     },
-    price: 300,
-    imageUrl: Taom,
-  },
-  {
-    id: 6,
-    name: {
-      uz: 'Mahsulot 6',
-      eng: 'Product 6',
-      ru: 'Продукт 6',
+    {
+      id: 3,
+      name: {
+        uz: 'Ichimlik 3',
+        eng: 'Drink 3',
+        ru: 'Напиток 3',
+      },
+      price: 90,
+      imageUrl: Ichimlik,
     },
-    price: 350,
-    imageUrl: Taom,
-  },
-  {
-    id: 7,
-    name: {
-      uz: 'Mahsulot 7',
-      eng: 'Product 7',
-      ru: 'Продукт 7',
-    },
-    price: 400,
-    imageUrl: Taom,
-  },
-  {
-    id: 8,
-    name: {
-      uz: 'Mahsulot 8',
-      eng: 'Product 8',
-      ru: 'Продукт 8',
-    },
-    price: 450,
-    imageUrl: Taom,
-  },
-  {
-    id: 9,
-    name: {
-      uz: 'Mahsulot 9',
-      eng: 'Product 9',
-      ru: 'Продукт 9',
-    },
-    price: 500,
-    imageUrl: Taom,
-  },
-  {
-    id: 10,
-    name: {
-      uz: 'Mahsulot 10',
-      eng: 'Product 10',
-      ru: 'Продукт 10',
-    },
-    price: 550,
-    imageUrl: Taom,
-  },
-];
+    // Boshqa ichimliklar...
+  ],
+};
 
 export default products;
